@@ -134,11 +134,11 @@ public class ChatApi {
 
     public static void main(String[] args) {
         ApiConfig.setAppId("dev");
-        ApiConfig.setBroadcastId("luob");
+        ApiConfig.setBroadcastId("Broadcast");
 
-        accessCookie = getAccessCookie();
-        System.out.println(accessCookie);
-        ApiResult result = new ChatApi().sendBroadcast("from jsoup");
+        //accessCookie = getAccessCookie();
+        //System.out.println(accessCookie);
+        ApiResult result = new ChatApi().sendBroadcast("Broadcast from jsoup");
         System.out.println(result.getJson());
     }
 
